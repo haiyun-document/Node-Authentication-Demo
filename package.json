@@ -1,0 +1,13 @@
+{
+    "name": "authentication"
+  , "version": "0.0.1"
+	, "Web app showcasing authentication using Node, Express, MongoDB for the database and session storage, and bcrypt for password hashes."
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.8"
+    , "jade": ">= 0.0.1"
+		, "bcrypt": "0.5.0"
+		, "mongoose": "2.7.0"
+		, "session-mongoose": "0.0.2"
+  }
+}

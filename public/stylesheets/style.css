@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+hgroup {
+  border-bottom: solid 1px #000;
+	margin-bottom: 20px;
+}
+
+div#actions {
+	float: left;
+	width: 20%;
+}
+
+div#content {
+	float: left;
+	width: 80%;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	margin-bottom: 15px;
+}
+
+p.notice {
+	color: #009;
+	border: solid 2px #009;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 0;
+}
+
+p.error {
+	color: #900;
+	border: solid 2px #900;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 0;
+}

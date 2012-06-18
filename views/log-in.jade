@@ -1,0 +1,19 @@
+div#actions
+  ul
+    li
+      a(href='/register') Register
+div#content
+  - each notice in notices
+    p.notice!= notice
+  - each error in errors
+    p.error!= error
+  form(action='/log-in', method='post')
+    label(for='username') Username
+    br
+    input(type='text', name='username', id='username', autofocus)
+    br
+    label(for='password') Password
+    br
+    input(type='password', name='password', id='password')
+    br
+    input(type='submit', value='Log In')
